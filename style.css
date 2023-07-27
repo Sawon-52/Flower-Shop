@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* start header part  and hero section */
+header{
+    width: 100%;
+    height: 850px;
+    padding: 0px 240px;
+    padding-top: 50px;
+    background: rgba(229, 84, 115, 0.10);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 178px;
+}
+
+header .hero_title > h3{
+    width: 600px;
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+header .hero_title > p{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:32px 0px;
+}
+
+button{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
+
+/* start main part and featured section */
+
+main .featured{
+    text-align: center;
+    margin-bottom: 128px;
+    padding: 0px 240px;
+   
+}
+main .featured > h3{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+main .featured > p{
+    width: 594px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+main .featured .folwer_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+main .featured .folwer_container .flower_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+main .featured .folwer_container .flower_cart .flower{
+    width: 300px;
+    height: 480px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+main .featured .folwer_container .flower_cart .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+main .featured .folwer_container .flower_cart .gray{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+main .featured .folwer_container .flower_cart .flower img{
+    width: 300px;
+    height: 400px;
+}
+
+main .featured .folwer_container .flower_cart a{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+/* start activity section */
+.activity{
+    height: 320px;
+    margin: 0px 240px;
+    padding: 0px 100px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 128px;
+}
+
+.activity .activity_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.activity .activity_cart img{
+    width: 88px;
+    height: 88px;  
+}
+.activity .activity_cart > h3{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 24px 0px;
+}
+
+/* start hot deal section */
+.hot_deal{
+    width: 100%;
+    height: 620px;
+    margin-bottom: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hot_deal .deal_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hot_deal .deal_title > h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot_deal .deal_title > h3 span{
+    color: #E55473;
+}
+
+.hot_deal .deal_title > p{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px;
+}
+.hot_deal .deal_image img{
+    width: 318px;
+    height: 420px;
+}
+
+/* start instagram section */
+.instagram{
+    margin: 0px 240px;
+    margin-bottom: 128px;
+}
+.insta_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram  .insta_title >h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram .insta_title >p{
+    width: 594px;
+    margin: 0 auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px 50px 0px;
+}
+.instagram > .image_box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.instagram .image_box img{
+    width: 250px;
+    height: 300px;
+}
+/* start letest deal  */
+
+.letest_deal{
+    margin: 0px 240px;
+    height: 449px;
+    background: url(Flower_Asset/Rectangle\ 9.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.letest_deal >h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.letest_deal >p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.letest_deal form [type="text"]{
+    width: 650px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    outline: none;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+/* start review section  */
+.review{
+    margin: 0px 240px;
+    height: 500px;
+    margin-bottom: 128px;
+    border-radius: 8px;
+    background:rgba(229, 84, 115, 0.05);
+    padding: 0px 20px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.review >h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+.review  .review_conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.review  .review_conteiner hr{
+    width: 2px;
+    margin-right: 25px;
+    background-color: #E55473;
+    border: none;
+}
+.review_conteiner .review_card{
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.review_conteiner .review_card .review_image {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review_conteiner .review_card .review_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.review .review_title > h3{
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.review .review_title > p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 350px;
+    line-height: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.review .review_title > a{
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px;
+}
+
+.arrow{
+    height: 60px;
+    width: 60px;
+    background: #E55473;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+}
+.arrow img{
+    height: 50px;
+    width: 50px;
+}
+
+/* start footer section  */
+footer{
+    width: 100%;
+    height: 449px; 
+    background: #111010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > h3{
+    color: #FFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+footer > h3 span{
+    color: #E55473;
+}
+footer > h4{
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0px 30px 0px ;
+}
+
+footer > p{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
